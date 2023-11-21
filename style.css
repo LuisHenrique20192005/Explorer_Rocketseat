@@ -1,0 +1,55 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+#hero{
+    width: 592px;
+    margin: 0 auto 72px;
+}
+
+h1{
+    font-family: 'Inter', sans-serif;
+    font-size: 49px;
+    font-weight: 400;
+    margin-top: 62px;
+}
+
+h1 span{
+    font-weight: bold;
+}
+
+span, a{
+    color: #F90;
+}
+
+p{
+    color: #7D7987;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+/*borda está diferente do projeto, pode vir a dar problema futuramente, no projeto a borda deveria estar dentro do footer, eu fiz à parte*/
+.borda{
+    border: 1px solid #ECEFF2;
+    width: 568.001px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#footer{
+    margin: 8px auto 33px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#footer a + a{/*Pegue o "a" que anterior a ele tenha um "a" e:*/
+margin-left: 28px;
+}
+
+.bolinhas{
+    margin-left: 93%;
+}
